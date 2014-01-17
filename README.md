@@ -1,5 +1,5 @@
 
-# Cronstring
+# Cronstring [![Build Status](https://travis-ci.org/thomseddon/cronstring.png?branch=master)](https://travis-ci.org/thomseddon/cronstring)
 
 Parse human readable strings into cron times
 
