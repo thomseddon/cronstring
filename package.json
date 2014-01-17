@@ -1,0 +1,18 @@
+{
+  "name": "cronstring-web",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thomseddon/cronstring.git"
+  },
+  "author": "Thom Seddon",
+  "license": "MIT",
+  "dependencies": {
+    "cronstring": "0.0.1"
+  }
+}
