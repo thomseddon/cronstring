@@ -22,4 +22,9 @@ describe('', function () {
   test('every 15 minutes', '*/15 * * * *');
   test('every hour', '* */1 * * *');
   test('every 4 hours', '* */4 * * *');
+
+  // Invalid
+  test('every', false);
+  test('every mo', false);
+  test('every tuesday at', false);
 });
