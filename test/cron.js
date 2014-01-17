@@ -23,6 +23,7 @@ describe('', function () {
   test('every hour', '* */1 * * *');
   test('every 4 hours', '* */4 * * *');
   test('every day', '00 00 * * *');
+  test('every day at 1am', '00 1 * * *');
 
   // Invalid
   test('every', false);
