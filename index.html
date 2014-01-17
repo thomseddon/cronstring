@@ -26,6 +26,10 @@
   body, input {
     text-align: center;
   }
+  .list-group-item {
+    padding: 5px 0;
+    margin-bottom: 4px;
+  }
   </style>
 
   <!--[if lt IE 9]>
@@ -39,6 +43,12 @@
       <h1>Cron Interval Generator</h1>
       <input type="text" class="form-control" id="input" placeholder="e.g. 'every day', 'every monday at 2pm'">
       <h1 id="output">* * * * *</h1>
+      <h3>Syntax</h3>
+      <ul class="list-group col-sm-6 col-sm-offset-3">
+        <li class="list-group-item">Every &lt;day&gt; [at &lt;time&gt;] [and &lt;time&gt; ...]</li>
+        <li class="list-group-item">Every [&lt;number&gt;] &lt;minute[s],hour[s]&gt;</li>
+        <li class="list-group-item"><a href="https://github.com/thomseddon/cronstring">Add more</a></li>
+      </ul>
     </div>
   </div>
 
