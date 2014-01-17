@@ -1,0 +1,18 @@
+{
+  "name": "cronstring",
+  "version": "0.0.1",
+  "description": "Parse human readable strings into cron timings",
+  "main": "lib/cron.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "author": "Thom Seddon",
+  "license": "MIT",
+  "dependencies": {
+    "should": "~1.3.0"
+  }
+}
