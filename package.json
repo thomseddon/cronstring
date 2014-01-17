@@ -1,6 +1,6 @@
 {
   "name": "cronstring",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parse human readable strings into cron timings",
   "main": "lib/cron.js",
   "directories": {
