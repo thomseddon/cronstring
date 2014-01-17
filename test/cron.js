@@ -15,6 +15,7 @@ describe('', function () {
   test('every sunday at 2pm', '00 14 * * 0');
   test('every monday at noon', '00 12 * * 1');
   test('every saturday at 2am and 2pm', '00 2,14 * * 6');
+  test('every thursday at 3:12am', '12 3 * * 4');
 
   // Vague repetition
   test('every minute', '*/1 * * * *');
