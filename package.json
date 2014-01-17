@@ -12,7 +12,8 @@
   "repository": "",
   "author": "Thom Seddon",
   "license": "MIT",
-  "dependencies": {
-    "should": "~1.3.0"
+  "devDependencies": {
+    "should": "~1.3.0",
+    "mocha": "~1.17.0"
   }
 }
