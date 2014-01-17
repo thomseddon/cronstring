@@ -13,6 +13,6 @@
   "author": "Thom Seddon",
   "license": "MIT",
   "dependencies": {
-    "cronstring": "0.0.2"
+    "cronstring": "~0.0.3"
   }
 }
