@@ -5,14 +5,14 @@ var $input = $('#input');
 var $output = $('#output');
 
 var update = function (val) {
-  val = cronstring(val);
+  var interval = cronstring(val);
 
-  if (val === false) {
+  if (interval === false) {
     if (!$output.hasClass('invalid'))
       $output.addClass('invalid');
   } else {
     $output.removeClass('invalid');
-    $output.text(val);
+    $output.text(interval);
     window.location.hash = encodeURIComponent(val);
   }
 };
