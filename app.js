@@ -13,9 +13,8 @@ var update = function (val) {
   } else {
     $output.removeClass('invalid');
     $output.text(val);
+    window.location.hash = encodeURIComponent(val);
   }
-
-  window.location.hash = encodeURIComponent(val);
 };
 
 $input.on('input', function () {
