@@ -22,5 +22,5 @@ $input.on('input', function () {
 });
 
 if (window.location.hash)
-  update(decodeURIComponent(window.location.hash.substr(1)));
+  $input.val(decodeURIComponent(window.location.hash.substr(1))).trigger('input');
 
