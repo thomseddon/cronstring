@@ -20,8 +20,8 @@ describe('', function () {
   // Vague repetition
   test('every minute', '*/1 * * * *');
   test('every 15 minutes', '*/15 * * * *');
-  test('every hour', '* */1 * * *');
-  test('every 4 hours', '* */4 * * *');
+  test('every hour', '00 */1 * * *');
+  test('every 4 hours', '00 */4 * * *');
   test('every day', '00 00 * * *');
   test('every day at 1am', '00 1 * * *');
 
